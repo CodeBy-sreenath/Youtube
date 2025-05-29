@@ -1,0 +1,57 @@
+.TrendingSectionMain
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: end;
+    
+}
+
+
+
+
+
+.Cards
+
+{
+    border: 2px solid yellow;
+    margin-left: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+    
+    width: 431px;
+    border-radius: 25px;
+    height: 300px;
+    background: transparent;
+    background: linear-gradient(135deg, #1db954, #191414);;
+    color: #000;
+    margin-bottom: 25px;
+
+    
+
+}
+.Cards:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.Cards img{
+    border-radius: 35px;
+}
+.title
+{
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+     font-size: 14px;
+  color: #0f0f0f;
+}
+.chembakam
+{
+    height: 250px;
+    width: 420px;
+}
+.malayalapuzha
+{
+    height: 250px;
+    width: 420px;
+}

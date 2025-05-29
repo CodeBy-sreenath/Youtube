@@ -1,0 +1,48 @@
+.movies
+{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: end;
+   
+}
+.mainMovies
+{
+    border: 2px solid yellow;
+    margin-left: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+    
+    width: 431px;
+    border-radius: 25px;
+    height: 300px;
+    background: transparent;
+    background: linear-gradient(135deg, #1db954, #191414);;
+    color: #000;
+    margin-bottom: 25px;
+
+}
+.mainMovies:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.mainMovies img
+{
+    border-radius: 35px;
+}
+.bogan
+{
+    width: 420px;
+}
+.nunakkuzhi
+{
+    width: 420px;
+    height: 250px;
+}
+.panjabi
+{
+    width: 420px;
+}
